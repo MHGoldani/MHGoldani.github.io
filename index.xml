@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohammad Hadi Goldani</title>
+    <link>https://mhgoldani.github.io/</link>
+      <atom:link href="https://mhgoldani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mohammad Hadi Goldani</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mhgoldani.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Mohammad Hadi Goldani</title>
+      <link>https://mhgoldani.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://mhgoldani.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://mhgoldani.github.io/talk/example-talk/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+ --&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mhgoldani.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mhgoldani.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fake News Dataset</title>
+      <link>https://mhgoldani.github.io/dataset/fakenews-japanese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mhgoldani.github.io/dataset/fakenews-japanese/</guid>
+      <description>&lt;small&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://mhgoldani.github.io/dataset/image/fig4-3-1.png&#34; alt=&#34;Sample Image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Fake news has caused significant damage to various fields of society, e.g., economy, politics, and health problems. To counter this problem, various fake news datasets have been constructed. These existing datasets have focused almost exclusively on the factuality aspect of the news. &lt;strong&gt;Can we fully understand &amp;ldquo;fake news&amp;rdquo; and various events it causes based on these datasets given factuality labels?&lt;/strong&gt; This is exactly the motivation behind our dataset construction. To promote understanding of fake news, we consider it is necessary to provide not only factual information but also information from various perspectives; the intention of the false news disseminator, the harmfulness of the news to our society, the target of the news, etc. We built a novel annotation scheme with fine-grained labeling to capture the various aspects of fake news, which is built based on the detailed investigations of existing fake news datasets. We then construct the first Japanese fake news dataset according to the annotation scheme. Our dataset can be expected to bring us in-depth understanding of fake news.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dataset-description&#34;&gt;Dataset Description&lt;/h2&gt;
+&lt;p&gt;Our dataset includes 307 news stories, which were verified by &lt;a href=&#34;https://fij.info/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fact Check Initiative Japan&lt;/a&gt; between July 2019 and October 2021. We provide our dataset in two folders: One is &lt;strong&gt;Label&lt;/strong&gt; folder, which contains label information by our annotation and fact-checking URLs. Another is &lt;strong&gt;Tweet&lt;/strong&gt; folder, which contains the collected tweet IDs related to each news. &lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;strongour-dataset-is-published-atstrong-httpszenodoorgrecord5831617httpszenodoorgrecord5831617&#34;&gt;&lt;strong&gt;Our dataset is published at&lt;/strong&gt; &lt;a href=&#34;https://zenodo.org/record/5831617&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zenodo.org/record/5831617&lt;/a&gt;&lt;/h4&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Label folder&lt;/strong&gt; &lt;br&gt;
+This folder contains our annotation labels to each news. It is composed of two files.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;label.csv&lt;/strong&gt; &lt;br&gt;
+This file composes of and ID, article names, URL, and our annotation labels.
+The file is tsv format, whose column names are below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ID  Article URL Q1  Q2-1  Q2-2A Q2-2B Q4  Q5  Q6  Q7&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;q3-*.csv&lt;/strong&gt; &lt;br&gt;
+We provide the label for Q3 assigned by each annotator.
+The file is tsv format, whose column names are below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ID  Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tweet folder&lt;/strong&gt;&lt;br&gt;
+This folder contains the collected tweet IDs related to each news. In a folder for each news item named news ID, there are two types of posts: one (&lt;strong&gt;FS&lt;/strong&gt;) is tweetIDs related to the original news item and another (&lt;strong&gt;FC&lt;/strong&gt;) is tweets related to the fact-checking article. &lt;br&gt;
+Additionally, we provide three types of tweet information by separate file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tweet IDs (tweet)&lt;/li&gt;
+&lt;li&gt;User IDs (user)&lt;/li&gt;
+&lt;li&gt;Conversation IDs (conv) &lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, each news folder does not always have all these files because of the removal. &lt;br&gt;
+When we have, in News ID &amp;ldquo;21&amp;rdquo;, a list of tweet IDs and user IDs for the original news article (FS) and a list of tweet IDs and user IDs for the fact-checking article related to it (FC), our file structure would be below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tweet/21/FS-21-tweet.txt &lt;br&gt;
+Tweet/21/FS-21-user.txt &lt;br&gt;
+Tweet/21/FC-21-tweet.txt &lt;br&gt;
+Tweet/21/FC-21-user.txt &lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+&lt;p&gt;Read our arXiv paper for more details here&lt;br&gt;
+If you use this dataset, please cite&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a name=&#34;surveylist&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;existing-dataset-list&#34;&gt;Existing dataset list&lt;/h2&gt;
+&lt;p&gt;We examined 51 fake news detection datasets and identified several issues that needed to be resolved for dataset constructuion. Each dataset are listed in below.&lt;/p&gt;
+&lt;p&gt;Read our arXiv paper for more detailed descriptions of each dataset: &lt;a href=&#34;https://arxiv.org/abs/2111.03299&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2111.03299&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;fake-news-detection-dataset-on-news-articles&#34;&gt;Fake News Detection Dataset on news articles&lt;/h4&gt;
+&lt;span style=&#34;font-size: 70%;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Politifact14&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Andreas Vlachos and Sebastian Riedel. 2014. Fact checking: Task definition and dataset construction. InProceedings of the ACL 2014 Workshop onLanguage Technologies and Computational Social Science. 18–22.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Buzzfeed_political&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Random_political&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Benjamin D Horne and Sibel Adali. 2017. This Just In: Fake News Packs a Lot in Title, Uses Similar, Repetitive Contentin Text Body, More Similarto Satire than Real News. InProceedings of the 2nd International Workshop on News and Public Opinion at ICWSM.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ahmed2017&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hadeer Ahmed, Issa Traore, and Sherif Saad. 2017. Detection of online fake news using n-gram analysis and machine learning techniques. InInternational conference on intelligent, secure, and dependable systems in distributed and cloud environments. Springer, 127–138.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LIAR&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tariq Alhindi, Savvas Petridis, and Smaranda Muresan.2018. Where is your Evidence: Improving Fact-checking by Justification Modeling. InProceedings of the First Workshop on Fact Extraction and VERification (FEVER). 85–90.
+William Yang Wang. 2017. “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection. InProceedings of the 55th AnnualMeeting of the Association for Computational Linguistics (Volume 2: Short Papers). 422–426.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TSHP-17_politifac&lt;/stong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hannah Rashkin, Eunsol Choi, Jin Yea Jang, Svitlana Volkova, and Yejin Choi. 2017. Truth of varying shades: Analyzing language in fake newsand political fact-checking. InProceedings of the 2017 conference on empirical methods in natural language processing. 2931–2937.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FakeNewsAMT&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Celebrity&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Verónica Pérez-Rosas, Bennett Kleinberg, AlexandraLefevre, and Rada Mihalcea. 2018. Automatic Detection of Fake News. InProceedings of the27th International Conference on Computational Linguistics. 3391–3401.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kaggle_UTK&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TK Machine Learning Club. 2018. Fake News: Build a system to identify unreliable news articles. &lt;a href=&#34;https://www.kaggle.com/c/fake-news&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/c/fake-news&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MisInfoText_Buzzfeed&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MisInfoText_Snopes&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fatemeh Torabi Asr and Maite Taboada. 2019. Big Data and quality data for fake news and misinformation detection.Big Data &amp;amp; Society6, 1(2019), 2053951719843310&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FA-KES&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fatima K Abu Salem, Roaa Al Feel, Shady Elbassuoni, Mohamad Jaber, and May Farah. 2019. Fa-kes: A fake news dataset around the syrian war.InProceedings of the International AAAI Conference on Web and Social Media, Vol. 13. 573–582.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Spanish-v1&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;stroing&gt;Spanish-v2&lt;/stroing&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Juan-Pablo Posadas-Durán, Helena Gómez-Adorno, Grigori Sidorov, and Jesús Jaime Moreno Escobar. 2019. Detection of fake news in a newcorpus for the Spanish language.Journal of Intelligent &amp;amp; Fuzzy Systems36, 5 (2019), 4869–4876.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;fauxtography&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dimitrina Zlatkova, Preslav Nakov, and Ivan Koychev.2019. Fact-Checking Meets Fauxtography: Verifying ClaimsAbout Images. InProceedings ofthe 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing(EMNLP-IJCNLP). Association for Computational Linguistics, 2099–2108.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Breaking!&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Subhabrata Mukherjee and Gerhard Weikum. 2015. Leveraging joint interactions for credibility analysis in news communities. InProceedings ofthe 24th ACM International on Conference on Information andKnowledge Management. 353–362&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TDS2020&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ria Gandhi. 2020. Getting Real with Fake News. &lt;a href=&#34;https://towardsdatascience.com/getting-real-with-fake-news-d4bc033eb38a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://towardsdatascience.com/getting-real-with-fake-news-d4bc033eb38a&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FakeCovid&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gautam Kishore Shahi and Durgesh Nandini. 2020.  FakeCovid – A Multilingual Cross-domain Fact Check News Dataset for COVID-19. InWorkshop Proceedings of the 14th International AAAI Conference on Web and Social Media.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;stroing&gt;TrueFact_FND&lt;/stroing&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;KDD 2020 TrueFact Workshop: Making a Credible Webfor Tomorrow: Shared Task 2. &lt;a href=&#34;https://www.microsoft.com/en-us/research/event/kdd-2020-truefact-workshop-making-a-credible-web-for-tomorrow/#!shared-tasks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.microsoft.com/en-us/research/event/kdd-2020-truefact-workshop-making-a-credible-web-for-tomorrow/#!shared-tasks&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://mhgoldani.github.io/dataset/image/dataset1.png&#34; alt=&#34;Sample Image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;fake-news-detection-dataset-on-social-media-posts&#34;&gt;Fake News Detection Dataset on social media posts&lt;/h4&gt;
+&lt;span style=&#34;font-size: 70%;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MediaEval_Dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Christina Boididou, Symeon Papadopoulos, Markos Zampoglou, Lazaros Apostolidis, Olga Papadopoulou, and Yiannis Kompatsiaris. 2018. Detec-tion and visualization of misleading content on Twitter.International Journal of Multimedia Information Retrieval7, 1 (2018), 71–86.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PHEME&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Arkaitz Zubiaga, Maria Liakata, Rob Procter, Geraldine Wong Sak Hoi, and Peter Tolmie. 2016.  Analysing how peopleorient to and spreadrumours in social media by looking at conversational threads.PloS one11, 3 (2016), e0150989.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Twitter-ma&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RUMDECT&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jing Ma, Wei Gao, Prasenjit Mitra, Sejeong Kwon, Bernard J. Jansen, Kam-Fai Wong, and Meeyoung Cha. 2016. Detecting Rumors from Microblogswith Recurrent Neural Networks(IJCAI’16). 3818–3824&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RumorEval2017&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Leon Derczynski, Kalina Bontcheva, Maria Liakata, RobProcter, Geraldine Wong Sak Hoi, and Arkaitz Zubiaga. 2017.SemEval-2017 Task 8:RumourEval: Determining rumour veracity and support for rumours. InProceedings of the 11th International Workshop on Semantic Evaluation(SemEval-2017). 69–76.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Twitter15&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Twitter16&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jing Ma, Wei Gao, and Kam-Fai Wong. 2017. Detect Rumorsin Microblog Posts Using Propagation Structure via Kernel Learning. InProceedingsof the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 708–717.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BuzzFace&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Giovanni C Santia and Jake Ryland Williams. 2018. Buzzface: A news veracity dataset with facebook user commentaryand egos. InProceedingsof the 12th International AAAI Conference on Web and Social Media.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Some-like-it-hoax&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Eugenio Tacchini, Gabriele Ballarin, Marco L Della Vedova, Stefano Moret, and Luca de Alfaro. 2017. Some like it Hoax: Automated fake newsdetection in social networks. In2nd Workshop on Data Science for Social Good, SoGood 2017. CEUR-WS, 1–15.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Media_Weibo&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zhiwei Jin, Juan Cao, Han Guo, Yongdong Zhang, and Jiebo Luo. 2017. Multimodal fusion with recurrent neural networks for rumor detectionon microblogs. InProceedings of the 25th ACM international conference on Multimedia. 795–816.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PHEME-update&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Elena Kochkina, Maria Liakata, and Arkaitz Zubiaga. 2018. All-in-one: Multi-task Learning for Rumour Verification. InProceedings of the 27thInternational Conference on Computational Linguistics. 3402–3413.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;FakeNewsNet&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kai Shu, Deepak Mahudeswaran, Suhang Wang, Dongwon Lee, and Huan Liu. 2020. FakeNewsNet: A Data Repository with News Content, SocialContext, and Spatiotemporal Information for Studying FakeNews on Social Media.Big Data8, 3 (2020), 171–188.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jiang2018&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Shan Jiang and Christo Wilson. 2018. Linguistic signals under misinformation and fact-checking: Evidence from user comments on social media.Proceedings of the ACM on Human-Computer Interaction2, CSCW (2018), 1–23.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RumorEval2019&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Genevieve Gorrell, Elena Kochkina, Maria Liakata, Ahmet Aker, Arkaitz Zubiaga, Kalina Bontcheva, and Leon Derczynski. 2019. SemEval-2019Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours. InProceedings of the 13th International Workshop on SemanticEvaluation. 845–854.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Rumor-anomaly&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nguyen Thanh Tam, Matthias Weidlich, Bolong Zheng, Hongzhi Yin, Nguyen Quoc Viet Hung, and Bela Stantic. 2019. From anomaly detectionto rumour detection using data streams of social platforms.Proceedings of the VLDB Endowment12, 9 (2019), 1016–1029.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WeChat-Dataset&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yaqing Wang, Weifeng Yang, Fenglong Ma, Jin Xu, Bin Zhong, Qiang Deng, and Jing Gao. 2020. Weak supervision for fakenews detection viareinforcement learning. InProceedings of the AAAI Conference on Artificial Intelligence, Vol. 34. 516–523.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fang&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Van-Hoang Nguyen, Kazunari Sugiyama, Preslav Nakov,and Min-Yen Kan. 2020. FANG: Leveraging Social Context for Fake News DetectionUsing Graph Representation. InProceedings of the 29th ACM International Conference on Information and Knowledge Management. 1165–1174.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;WhatsApp&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Julio CS Reis, Philipe Melo, Kiran Garimella, JussaraM Almeida, Dean Eckles, and Fabrício Benevenuto. 2020. A Dataset of Fact-Checked ImagesShared on WhatsApp During the Brazilian and Indian Elections. InProceedings of the International AAAI Conference on Web and Social Media,Vol. 14. 903–908.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fakeddit&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kai Nakamura, Sharon Levy, and William Yang Wang. 2020.  Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake NewsDetection. InProceedings of the 12th Language Resources and Evaluation Conference. 6149–6157.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reddit_comments&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vinay Setty and Erlend Rekve. 2020.  Truth be Told: FakeNews Detection Using User Reactions on Reddit. InProceedings of the 29th ACMInternational Conference on Information and Knowledge Management. 3325–3328.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HealthStory&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HealthRelease&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enyan Dai, Yiwei Sun, and Suhang Wang. 2020. Ginger cannot cure cancer: Battling fake health news with a comprehensive data repository. InProceedings of the International AAAI Conference on Web and Social Media, Vol. 14. 853–862.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CoAID&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Limeng Cui and Dongwon Lee. 2020. Coaid: Covid-19 healthcare misinformation dataset.arXiv preprint arXiv:2006.00885(2020).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;COVID-HeRA&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Arkin Dharawat, Ismini Lourentzou, Alex Morales, and ChengXiang Zhai. 2020. Drink bleach or do what now? covid-hera: A dataset for risk-informed health decision making in the presence of covid19 misinformation.arXiv preprint arXiv:2010.08743(2020).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ArCOV19-Rumors&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fatima Haouari, Maram Hasanain, Reem Suwaileh, and Tamer Elsayed. 2021. ArCOV19-Rumors: Arabic COVID-19 TwitterDataset for Misinfor-mation Detection. InProceedings of the Sixth Arabic Natural Language Processing Workshop. 72–81.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MM-COVID&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yichuan Li, Bohan Jiang, Kai Shu, and Huan Liu. 2020. MM-COVID: A multilingual and multimodal data repository for combating COVID-19disinformation.arXiv preprint arXiv:2011.04088(2020).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Constraint&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Parth Patwa, Shivam Sharma, Srinivas PYKL, Vineeth Guptha, Gitanjali Kumari, Md Shad Akhtar, Asif Ekbal, AmitavaDas, and TanmoyChakraborty. 2020. Fighting an Infodemic: COVID-19 Fake News Dataset.arXiv preprint arXiv:2011.03327(2020).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Indic-covid&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Debanjana Kar, Mohit Bhardwaj, Suranjana Samanta, and Amar Prakash Azad. 2020. No rumours please! A multi-indic-lingual approach forCOVID fake-tweet detection.arXiv preprint arXiv:2010.06906(2020).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;COVID-19-FAKES&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mohamed K Elhadad, Kin Fun Li, and Fayez Gebali. 2020. COVID-19-FAKES: A twitter (Arabic/English) dataset for detecting misleading informa-tion on COVID-19. InInternational Conference on Intelligent Networking and Collaborative Systems. Springer, 256–268.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CHECKED&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Chen Yang, Xinyi Zhou, and Reza Zafarani. 2021. CHECKED: Chinese COVID-19 fake news dataset.Social Network Analysis and Mining11, 1(2021), 1–8.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;COVID-Alam&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Firoj Alam, Fahim Dalvi, Shaden Shaar, Nadir Durrani, Hamdy Mubarak, Alex Nikolov, Giovanni Da San Martino, Ahmed Abdelali, Hassan Sajjad,Kareem Darwish, et al. 2021. Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms. InProceedings of theInternational AAAI Conference on Web and Social Media, Vol. 15. 913–922.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;COVID-RUMOR&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mingxi Cheng, Songli Wang, Xiaofeng Yan, Tianqi Yang, Wenshuo Wang, Zehao Huang, Xiongye Xiao, Shahin Nazarian, and Paul Bogdan. 2021.A COVID-19 Rumor Dataset.Frontiers in Psychology12 (2021).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://mhgoldani.github.io/dataset/image/dataset2.png&#34; alt=&#34;Sample Image&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/small&gt;
+&lt;br&gt;
+&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://mhgoldani.github.io/project/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mhgoldani.github.io/project/publications/</guid>
+      <description>&lt;h2 id=&#34;journal&#34;&gt;Journal&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;strong&gt;Measuring Public Concern About COVID-19 Through Search Queries.&lt;/strong&gt;&lt;br&gt;
+Gao, Zhiwei, Sumio Fujita, Nobuyuki Shimizu, Kongmeng Liew, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shuntaro Yada, Shoko Wakamiya, and Eiji Aramaki.&lt;br&gt;
+JMIR Public Health and Surveillance, 7(7):e29865 (2021).&lt;br&gt;
+&lt;a href=&#34;https://publichealth.jmir.org/2021/7/e29865&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;strong&gt;Modeling the Spread of Fake News on Twitter&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki, Ryota Kobayashi&lt;br&gt;
+PLoS ONE 16(4): e250419, 2021.&lt;br&gt;
+&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250419&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2007.14059&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+&lt;a href=&#34;https://github.com/mhgoldani/extended_tideh&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;github&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Predicting Regional Influenza Epidemics with Uncertainty Estimation using Commuting Data in Japan&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Nobuyuki Shimizu, Sumio Fujita, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  PLoS ONE 16(4): e250417, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0250417&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Surveillance of early stage COVID-19 clusters using search query logs and mobile device-based location information&lt;/strong&gt;&lt;br&gt;
+  Shohei Hisada, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Kota Tsubouchi, Sumio Fujita, Shuntaro Yada, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  Scientific Reports 10(1) 18680, 2020.&lt;br&gt;
+  &lt;a href=&#34;https://www.nature.com/articles/s41598-020-75771-6&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;WEB上Q＆Aサービスへの投稿ログデータにおける 認知症者の介護で家族が抱える困難と悩み&lt;/strong&gt;&lt;br&gt;
+  小沢彩歌, 平和也, &lt;strong&gt;村山太一&lt;/strong&gt;, 藤田澄男, 伊藤美樹子, 荒牧英治&lt;br&gt;
+  ヘルスコミュニケーション学会雑誌 11(2) 19 - 27, 2020.&lt;br&gt;
+  &lt;a href=&#34;http://healthcommunication.jp/journal/vol011no02.html&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Robust two-stage influenza prediction model considering regular and irregular trends&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Nobuyuki Shimizu, Sumio Fujita, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  PLoS ONE 15(5): e0233126, 2020.&lt;br&gt;
+  &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0233126&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Comparing medical term usage patterns of professionals and search engine and community question answering service users in Japan: Log analysis&lt;/strong&gt;&lt;br&gt;
+  Kazuya Taira, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Sumio Fujita, Mikiko Ito, Kei Kamide, Eiji Aramaki&lt;br&gt;
+  Journal of Medical Internet Research 22(4) e13369, 2020.&lt;br&gt;
+  &lt;a href=&#34;https://www.jmir.org/2020/4/e13369/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;international-conference&#34;&gt;International Conference&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  &lt;strong&gt;Mitigation of Diachronic Bias in Fake News Detection Dataset&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  In Proceedings of the 7th Workshop on Noisy User-generated Text (W-NUT), EMNLP Workshop, 2021&lt;br&gt;
+  &lt;a href=&#34;https://aclanthology.org/2021.wnut-1.21/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2108.12601&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+  &lt;a href=&#34;https://github.com/mhgoldani/mitigation_diachronic_fake&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;github&lt;/a&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/W-NUT2021_poster.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Finding &#34;Retro&#34; Places in Japan: Crowd-sourced Urban Ambience Estimation&lt;/strong&gt;&lt;br&gt;
+  Shu Anzai, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shuntaro Yada, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  In Proceeding of the 5th ACM SIGSPATIAL International Workshop on Location-Based Recommendations, Geosocial Networks, and Geoadvertising (LocalRec 2021)&lt;br&gt;
+  &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3486183.3490999&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Single Model for Influenza Forecasting of Multiple Countries by Multi-task Learning&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2021&lt;br&gt;
+  &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-86514-6_21&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/PKDD2021_Appendix.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Appendix&lt;/a&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2107.01760&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+  &lt;a href=&#34;https://github.com/mhgoldani/single-model-for-influenza-forecasting&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;github&lt;/a&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/ecml-pkdd2021-single-model-for-influenza-forecasting-of-multiple-countries-by-multi-task-learning&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Modeling the Spread of Fake News on Twitter&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki, Ryota Kobayashi&lt;br&gt;
+  7th International Conference on Computational Social Science (IC2S2), Extended Abstract, Oral, 2021&lt;br&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/IC2S2_2021_modeling_fakenews.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Extended Abstract&lt;/a&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/ic2s2-2021-modeling-the-spread-of-fake-news-on-twitter&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Comparable Analysis of News Diffusion between Mainstream and Alternative Media in Twitter&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  7th International Conference on Computational Social Science (IC2S2), Extended Abstract, Poster, 2021&lt;br&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/IC2S2_2021_alternative.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Extended Abstract&lt;/a&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/ic2s2_poster.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Fake News Detection using Temporal Features Extracted via Point Process&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  In Proceedings of CySoc 2020 International Workshop on Cyber Social Threats, ICWSM Workshop, 2020.&lt;br&gt;
+  &lt;a href=&#34;http://workshop-proceedings.icwsm.org/abstract?id=2020_13&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2007.14013&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;NTCIR13 MedWeb Task: Multi-label Classification of Tweets using an Ensemble of Neural Networks&lt;/strong&gt;&lt;br&gt;
+  Hayate Iso, Camille Ruiz, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Katsuya Taguchi, Ryo Takeuchi, Hideya Yamamoto, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  In Proc. of the NTCIR13, 2017.&lt;br&gt;
+  &lt;strong style=&#34;color:red&#34;&gt;Best System Award&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings13/pdf/ntcir/04-NTCIR13-MEDWEB-IsoH.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;preprint&#34;&gt;Preprint&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  &lt;strong&gt;Dataset of Fake News Detection and Fact Verification: A Survey&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;&lt;br&gt;
+  arXiv:2111.03299, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2111.03299&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Influenza Surveillance using Search Engine, SNS, On-line Shopping, Q&amp;A Service and Past Flu Patients&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Nobuyuki Shimizu, Sumio Fujita, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  arXiv:2104.06646, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2104.06646&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Universal Fake News Collection System using Debunking Tweets&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shoko Wakamiya, Eiji Aramaki&lt;br&gt;
+  arXiv:2007.14083, 2020.&lt;br&gt;
+  &lt;a href=&#34;https://arxiv.org/abs/2104.06646&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;arXiv&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;domestic-conference&#34;&gt;Domestic Conference&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  &lt;strong&gt;SNSコメントを用いたニュースメディアバイアスの分析&lt;/strong&gt;&lt;br&gt;
+  久田祥平、&lt;strong&gt;村山太一&lt;/strong&gt;、矢田竣太郎、若宮翔子、荒牧英治&lt;br&gt;
+  第35回人工知能学会全国大会, 1D2-OS-3a-04, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://www.jstage.jst.go.jp/article/pjsai/JSAI2021/0/JSAI2021_1D2OS3a04/_article/-char/ja/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;フェイクニュース検出データセットにおける通時的バイアス&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  言語処理学会第27回年次大会 (NLP2021), P5-17, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P5-17.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Twitterにおけるフェイクニュース拡散モデルの提案&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治, 小林亮太&lt;br&gt;
+  第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), H33-5, 2021.&lt;br&gt;
+  &lt;strong style=&#34;color:red&#34;&gt;学生プレゼンテーション賞&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2021/papers/H33-5.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/deim2021-twitterniokeruhueikuniyusukuo-san-moderufalseti-an&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;検索クエリを活用した複数国におけるインフルエンザ流行予測&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), A33-1, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2021/papers/A33-1.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/deim2021-jian-suo-kueriwohuo-yong-sitafu-shu-guo-niokeruinhuruenzaliu-xing-yu-ce&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;ならまちハッピーマップ：クラウドソーシングと深層学習による街の雰囲気に基づく経路探索手法の提案&lt;/strong&gt;&lt;br&gt;
+  安西崇, &lt;strong&gt;村山太一&lt;/strong&gt;, 矢田竣太郎, 若宮翔子, 荒牧英治&lt;br&gt;
+  第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), J31-5, 2021.&lt;br&gt;
+  &lt;strong style=&#34;color:red&#34;&gt;学生プレゼンテーション賞&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2021/papers/J31-5.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;長期Twitterユーザの投稿内容の経時的分析&lt;/strong&gt;&lt;br&gt;
+  廣田一輝, &lt;strong&gt;村山太一&lt;/strong&gt;, 矢田竣太郎, KongmengLiew, 若宮翔子, 荒牧英治&lt;br&gt;
+  第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), I11-5, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2021/papers/I11-5.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;Public Concern About COVID-19 Through Search Queries&lt;/strong&gt;&lt;br&gt;
+  Zhiwei Gao, Kongmeng Liew, &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, Shuntaro Yada, Shoko Wakamiya, Eiji Aramaki, Nobuyuki Shimizu, Sumio Fujita&lt;br&gt;
+  第13回データ工学と情報マネジメントに関するフォーラム (DEIM2021), C24-3, 2021..&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2021/papers/C24-3.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;オルタナティブメディアに着目した日本のツイッターにおけるニュース拡散の分析&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  第5回計算社会科学ワークショップ (CSSJ2021), 2021.&lt;br&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/CSSJ2021_alternative.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/cssj2021-orutanateibumedeianizhao-mu-sitari-ben-falsetuitutaniokeruniyusukuo-san-falsefen-xi&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;訂正投稿を用いたフェイクニュース収集システムの開発&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  第12回データ工学と情報マネジメントに関するフォーラム (DEIM2020)，P2-19, 2020.&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2020/papers/P2-19.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;点過程を用いたフェイクニュース検出&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  第12回データ工学と情報マネジメントに関するフォーラム (DEIM2020)，A6-4, 2020.&lt;br&gt;
+  &lt;strong style=&#34;color:red&#34;&gt;2020年度コンピュータサイエンス領域奨励賞&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;https://proceedings-of-deim.github.io/DEIM2020/papers/A6-4.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;SNSを用いた選挙の争点に対する支持政党ごとの傾向抽出: 2019年大阪ダブル選挙を例に&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子, 荒牧英治&lt;br&gt;
+  第4回計算社会科学ワークショップ (CSSJ2020), 2020.&lt;br&gt;
+  &lt;a href=&#34;https://mhgoldani.github.io/project/file/CSSJ2020_election.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;WEB上Q&amp;Aサービスへの投稿質問を用いた認知症介護に関する介護者の情報ニーズの探索的分析&lt;/strong&gt;&lt;br&gt;
+  沢彩歌，平和也, &lt;strong&gt;村山太一&lt;/strong&gt;, 藤田澄男，伊藤美樹子，荒牧英治&lt;br&gt;
+  ヘルスコミュニケーション学会，2019.&lt;br&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;位置関係を考慮した地域ごとのインフルエンザ流行予測&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 清水伸幸，藤田澄男，若宮翔子，荒牧英治&lt;br&gt;
+  第11回データ工学と情報マネジメントに関するフォーラム (DEIM2019)，2019.&lt;br&gt;
+  &lt;a href=&#34;https://db-event.jpn.org/deim2019/post/papers/315.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;患者情報の季節性と検索クエリに基づくトレンドを用いたインフルエンザ患者数予測&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 清水伸幸，藤田澄男，若宮翔子，荒牧英治&lt;br&gt;
+  第35回情報論的学習理論と機械学習 (IBISML2018), D1-66，2018.&lt;br&gt;
+  &lt;a href=&#34;https://ibisml.org/ibis2018/discussion/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Site&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;WORD GINI: 使用頻度の偏りを捉える指標の提案とその応用&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子，荒牧英治&lt;br&gt;
+  言語処理学会第24回年次大会 (NLP2018),C4-4, 2018.&lt;br&gt;
+  &lt;a href=&#34;https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/C4-4.pdf&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+  &lt;a href=&#34;https://sociocom.naist.jp/word-gini/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Resource1&lt;/a&gt;
+  &lt;a href=&#34;https://sociocom.naist.jp/awd-j/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Resource2&lt;/a&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;ソーシャルメディアを用いた依存症者の発言分類とその空間分析&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子，荒牧英治&lt;br&gt;
+  NLP若手の会 (YANS2017), 2017.&lt;br&gt;
+&lt;/li&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;
+  &lt;strong&gt;ソーシャルメディアを用いた依存症者の発言分類とその空間分析&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;村山太一&lt;/strong&gt;, 若宮翔子，荒牧英治&lt;br&gt;
+  情報処理学会データベースシステム研究会 (WebDB Forum)，2017.&lt;br&gt;
+  &lt;strong style=&#34;color:red&#34;&gt;企業賞；ライフル賞&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;page_id=13&amp;block_id=8&amp;item_id=183413&amp;item_no=1/&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Paper&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;award&#34;&gt;Award&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  &lt;strong&gt;2021, 感謝状, 第13回データ工学と情報マネジメントに関するフォーラム(DEIM2021).&lt;/strong&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;strong&gt;2021, 学生プレゼンテーション賞, 第13回データ工学と情報マネジメントに関するフォーラム(DEIM2021).&lt;/strong&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;strong&gt;2020, 2020年度コンピュータサイエンス領域奨励賞, 情報処理学会.&lt;/strong&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;strong&gt;2017, NTCIR13, MedWeb Task Best System Award.&lt;/strong&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;strong&gt;2017, 企業賞；ライフル賞, 情報処理学会データベースシステム研究会.&lt;/strong&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;presentationstalks&#34;&gt;Presentations/Talks&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  &lt;strong&gt;Taichi Murayama&lt;/strong&gt;, &lt;strong&gt;Toward Research for Infodemics : Case study of the infodemic in Japan&lt;/strong&gt; &lt;br&gt;
+  Social Computing Workshop 2021 -Social Computing in the post-pandemic era-, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://speakerdeck.com/mhgoldani/toward-research-for-infodemics-case-study-of-the-infodemic-in-japan&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+  &lt;p&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;div style=&#34;font-size: 75%;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+  品川, &lt;strong&gt;村山&lt;/strong&gt;, 山本, 邱, 鈴木, 釜堀, 北村, 楢木, 金沢, &lt;strong&gt;Transformerメタサーベイ&lt;/strong&gt; &lt;br&gt;
+  cvpaper.challengeメタサーベイ, 2021.&lt;br&gt;
+  &lt;a href=&#34;https://www.slideshare.net/cvpaperchallenge/transformer-247407256&#34; class=&#34;btn btn-success btn-sm&#34; role=&#34;button&#34;&gt;Slide&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
